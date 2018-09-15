@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 13, 13); 
+
+}    
+
+
+
+
+#nav{
+    
+    display: flex;
+    
+    color: aqua;
+    
+    border: 1px solid black;
+       
+
+}
+
+#nav ul{
+    display: flex;
+    
+}
+#nav ul li{
+    display: flex inline;
+    justify-content: space-evenly; 
+    margin: 30px;
+    list-style:none ;
+    
+}
+
+#nav ul li:hover{
+    cursor: pointer;
+    padding: 1.5rem;
+    
+    
+}
+
+#nav ul li:hover{
+    background-color: rgb(165, 165, 184);
+    color: black;
+    box-shadow: 2rem;
+}
+   
+#images{
+    border: 1px;
+    padding: 90px;
+    background-color:rgb(90, 34, 34);
+    align-self: left;
+      
+}
+#write{
+    margin: 0;
+    padding: 30px;
+} 
+
+#footer{
+   
+    color: antiquewhite;
+    padding:10px;
+    margin: 5px;
+    background-color: brown;
+    text-align: right
+
+}
+
+#footer p{
+    display: inline-flex;
+    background-color: black;
+}
