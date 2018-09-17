@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     background-color: rgb(15, 13, 13); 
 
 }    
@@ -10,13 +10,18 @@ body{
 
 #nav{
     
-    display: flex;
+    display: inline-flex;
     
-    color: aqua;
+    color:#6c7260;
     
-    border: 1px solid black;
+    border: 1px ;
        
 
+}
+
+#nav p {
+    font-style: oblique;
+    font-size: 30px;
 }
 
 #nav ul{
@@ -33,7 +38,7 @@ body{
 
 #nav ul li:hover{
     cursor: pointer;
-    padding: 1.5rem;
+    padding: 0.5rem;
     
     
 }
@@ -43,17 +48,27 @@ body{
     color: black;
     box-shadow: 2rem;
 }
+.content{
+  
+    display: flex;
+    height: 800px;
+
+}
    
 #images{
+   
     border: 1px;
-    padding: 90px;
-    background-color:rgb(90, 34, 34);
-    align-self: left;
-      
+    padding: 100px;
+    background-color:rgb(121, 45, 45);
 }
-#write{
+
+#discription{
     margin: 0;
-    padding: 30px;
+    padding: 50px;
+    background-color:rgb(121, 44, 34);
+    justify-self: right;
+    font-size: 25px; 
+    justify-content: right;
 } 
 
 #footer{
@@ -61,8 +76,8 @@ body{
     color: antiquewhite;
     padding:10px;
     margin: 5px;
-    background-color: brown;
-    text-align: right
+    background-color: rgb(160, 52, 52);
+    text-align: right;
 
 }
 
